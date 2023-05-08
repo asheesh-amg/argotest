@@ -4,6 +4,7 @@ argo-cd:
   server:
     extraArgs:
       - --insecure
+      
     config:
       repositories: |
         - type: helm
